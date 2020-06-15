@@ -1,29 +1,20 @@
 version: '3.7'
 
 services:
-  mongo:
-    image: mongo
-    restart: always
+  db:
+    image: postgres
     ports:
-      - 27017:27017
+      - 5432:5432
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=merchant_offers
 
-  mongo-express:
-    image: mongo-express
-    restart: always
+  merge-service:
+    build: .
     ports:
-      - 8081:8081
-    environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: root
-
-#  merge-service:
-#    build: .
-#    ports:
-#      - 8080:8080
-#    depends_on:
-#      - mongo
-#    links:
-#      - mongo
+      - 8080:8080
+    depends_on:
+      - db
+    links:
+      - db

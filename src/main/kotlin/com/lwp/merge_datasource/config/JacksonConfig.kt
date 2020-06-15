@@ -1,6 +1,5 @@
 package com.lwp.merge_datasource.config
 
-import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.PropertyNamingStrategy
@@ -35,6 +34,7 @@ class JacksonConfig {
     @Bean("xmlMapper")
     fun xmlMapper(): XmlMapper {
         val mapper = XmlMapper()
+        mapper.propertyNamingStrategy = PropertyNamingStrategy.KEBAB_CASE
         mapper.registerKotlinModule()
                 .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
                 .registerModule(JavaTimeModule())

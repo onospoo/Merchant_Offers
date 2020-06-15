@@ -1,16 +1,14 @@
 package com.lwp.merge_datasource.data.model
 
-import com.lwp.merge_datasource.dto.model.inner.MerchantCategory
-import com.lwp.merge_datasource.dto.model.inner.Region
-import org.springframework.data.mongodb.core.mapping.Document
-import java.time.LocalDateTime
+import javax.persistence.*
 
-@Document("merchant")
+@Entity
 data class Merchant(
-        val id: Int,
-        val name: String,
-        val siteUrl: String,
-        val status: String,
-        val categories: List<String>,
-        val offers: MutableList<Offer> = mutableListOf()
+        @Id
+        val id: Int = 0,
+        val name: String = "",
+        val siteUrl: String = "",
+        val status: String = "",
+        @OneToMany(fetch = FetchType.EAGER, cascade = [CascadeType.ALL])
+        val categories: List<Category> = mutableListOf()
 )

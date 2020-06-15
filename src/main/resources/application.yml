@@ -1,9 +1,10 @@
 spring:
-  data:
-    mongodb:
-      host: ${MONGO_HOST:localhost}
-      port: 27017
-      database: merchant-offers
-      username: root
-      password: root
-      authentication-database: admin
+  datasource:
+    url: jdbc:postgresql://db:5432/merchant_offers
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate.jdbc.lob.non_contextual_creation: true
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect

@@ -15,9 +15,9 @@ class MergeControllerImpl(private val mergeService: MergeService) : MergeControl
         mergeService.start()
     }
 
-    override fun getAllMerchantsWithOffers(pageNum: Int, pageSize: Int): ResponseEntity<List<Merchant>> =
-            ResponseEntity.ok(mergeService.getMerchantsWithOffers(pageNum, pageSize))
+    override fun getAllMerchants(pageNum: Int, pageSize: Int): ResponseEntity<List<Merchant>> =
+            ResponseEntity.ok(mergeService.getMerchants(pageNum, pageSize))
 
     override fun getMerchantsOffersById(id: Int, pageNum: Int, pageSize: Int): ResponseEntity<List<Offer>> =
-            ResponseEntity.ok(mergeService.getMerchantsOffersById(id))
+            ResponseEntity.ok(mergeService.getMerchantsOffersById(id, pageNum, pageSize))
 }
