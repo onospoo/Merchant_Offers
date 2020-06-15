@@ -1,0 +1,328 @@
+{
+  "results": [
+    {
+      "status": "active",
+      "rating": "0.00",
+      "date_start": "2019-01-29T12:33:13",
+      "campaign": {
+        "id": 18698,
+        "name": "Dfsport",
+        "site_url": "https://dfsport.ru/"
+      },
+      "short_name": "Принимаем в Trade-in или просто выкупаем!",
+      "exclusive": false,
+      "name": "Принимаем в Trade-in или просто выкупаем!",
+      "date_end": null,
+      "promocode": "НЕ НУЖЕН",
+      "id": 226800,
+      "regions": [
+        "RU"
+      ],
+      "discount": null,
+      "types": [
+        {
+          "id": 3,
+          "name": "Подарок к заказу"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/27/2c7ae52013c00c5ee331c1c46c5907e2.jpg",
+      "frameset_link": "http://ad.admitad.com/coupon/9iifq54cjg162aae1f4e354a240ce9/",
+      "goto_link": "https://ad.admitad.com/g/mmw95a1wux162aae1f4e354a240ce9/?i=3",
+      "species": "action",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Аксессуары и сумки"
+        },
+        {
+          "id": 4,
+          "name": "Обувь "
+        },
+        {
+          "id": 5,
+          "name": "Одежда"
+        },
+        {
+          "id": 6,
+          "name": "Спорт и отдых"
+        }
+      ],
+      "description": "Как происходит выкуп или обмен?\r\nВы привозите нам оборудование.\r\nВ течении максимум 10 минут мы производим оценку.\r\nПолучаете деньги за оборудование.\r\nЕсли подобрали что-то новенькое себе, то оплачиваете разницу :)"
+    },
+    {
+      "status": "active",
+      "rating": "0.00",
+      "date_start": "2019-01-29T12:30:38",
+      "campaign": {
+        "id": 18698,
+        "name": "Dfsport",
+        "site_url": "https://dfsport.ru/"
+      },
+      "short_name": "Бесплатная доставка по Москве от 5000 руб!",
+      "exclusive": false,
+      "name": "Бесплатная доставка по Москве от 5000 руб!",
+      "date_end": null,
+      "promocode": "НЕ НУЖЕН",
+      "id": 226797,
+      "regions": [
+        "RU"
+      ],
+      "discount": null,
+      "types": [
+        {
+          "id": 1,
+          "name": "Бесплатная доставка"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/27/2c7ae52013c00c5ee331c1c46c5907e2.jpg",
+      "frameset_link": "http://ad.admitad.com/coupon/tt4dlorchl162aae1f4e354a240ce9/",
+      "goto_link": "https://ad.admitad.com/g/53pcb8oobw162aae1f4e354a240ce9/?i=3",
+      "species": "action",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Аксессуары и сумки"
+        },
+        {
+          "id": 4,
+          "name": "Обувь "
+        },
+        {
+          "id": 5,
+          "name": "Одежда"
+        },
+        {
+          "id": 6,
+          "name": "Спорт и отдых"
+        }
+      ],
+      "description": "Бесплатная доставка по Москве от 5000 руб"
+    },
+    {
+      "status": "active",
+      "rating": "6.32",
+      "date_start": "2018-10-25T15:55:00",
+      "campaign": {
+        "id": 18698,
+        "name": "Dfsport",
+        "site_url": "https://dfsport.ru/"
+      },
+      "short_name": "Скидка 5% при заказе более 3х позиций!",
+      "exclusive": true,
+      "name": "Скидка 5% при заказе более 3х позиций!",
+      "date_end": null,
+      "promocode": "THREEPOZ",
+      "id": 206650,
+      "regions": [
+        "RU"
+      ],
+      "discount": "5%",
+      "types": [
+        {
+          "id": 2,
+          "name": "Скидка на заказ"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/27/2c7ae52013c00c5ee331c1c46c5907e2.jpg",
+      "frameset_link": "http://ad.admitad.com/coupon/qexlq61cp0162aae1f4e354a240ce9/",
+      "goto_link": "https://ad.admitad.com/g/t1vi4k4144162aae1f4e354a240ce9/?i=3",
+      "species": "promocode",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Аксессуары и сумки"
+        },
+        {
+          "id": 4,
+          "name": "Обувь "
+        },
+        {
+          "id": 5,
+          "name": "Одежда"
+        },
+        {
+          "id": 6,
+          "name": "Спорт и отдых"
+        }
+      ],
+      "description": "Требуется ввод промокода;\r\nНе складывается с другими акциями и скидками."
+    },
+    {
+      "status": "active",
+      "rating": "0.00",
+      "date_start": "2018-10-25T15:55:00",
+      "campaign": {
+        "id": 18698,
+        "name": "Dfsport",
+        "site_url": "https://dfsport.ru/"
+      },
+      "short_name": "Скидка 3% при заказе 2х позиций!",
+      "exclusive": true,
+      "name": "Скидка 3% при заказе 2х позиций!",
+      "date_end": null,
+      "promocode": "TWOPOZ",
+      "id": 206649,
+      "regions": [
+        "RU"
+      ],
+      "discount": "3%",
+      "types": [
+        {
+          "id": 2,
+          "name": "Скидка на заказ"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/27/2c7ae52013c00c5ee331c1c46c5907e2.jpg",
+      "frameset_link": "http://ad.admitad.com/coupon/suffzi0pdm162aae1f4e354a240ce9/",
+      "goto_link": "https://ad.admitad.com/g/rkan7y79hn162aae1f4e354a240ce9/?i=3",
+      "species": "promocode",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Аксессуары и сумки"
+        },
+        {
+          "id": 4,
+          "name": "Обувь "
+        },
+        {
+          "id": 5,
+          "name": "Одежда"
+        },
+        {
+          "id": 6,
+          "name": "Спорт и отдых"
+        }
+      ],
+      "description": "Требуется ввод промокода;\r\nНе складывается с другими акциями и скидками."
+    },
+    {
+      "status": "active",
+      "rating": "9.49",
+      "date_start": "2018-10-25T15:55:00",
+      "campaign": {
+        "id": 18698,
+        "name": "Dfsport",
+        "site_url": "https://dfsport.ru/"
+      },
+      "short_name": "Скидка 3% на первый заказ!",
+      "exclusive": true,
+      "name": "Скидка 3% на первый заказ!",
+      "date_end": null,
+      "promocode": "FIRSTORD",
+      "id": 206648,
+      "regions": [
+        "RU"
+      ],
+      "discount": "3%",
+      "types": [
+        {
+          "id": 2,
+          "name": "Скидка на заказ"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/27/2c7ae52013c00c5ee331c1c46c5907e2.jpg",
+      "frameset_link": "http://ad.admitad.com/coupon/ve9j73kbrs162aae1f4e354a240ce9/",
+      "goto_link": "https://ad.admitad.com/g/048yapcr2g162aae1f4e354a240ce9/?i=3",
+      "species": "promocode",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Аксессуары и сумки"
+        },
+        {
+          "id": 4,
+          "name": "Обувь "
+        },
+        {
+          "id": 5,
+          "name": "Одежда"
+        },
+        {
+          "id": 6,
+          "name": "Спорт и отдых"
+        }
+      ],
+      "description": "Требуется ввод промокода;\r\nНе складывается с другими акциями и скидками."
+    },
+    {
+      "status": "active",
+      "rating": "0.00",
+      "date_start": "2019-03-11T17:03:25",
+      "campaign": {
+        "id": 18669,
+        "name": "General Food",
+        "site_url": "https://general-food.ru/"
+      },
+      "short_name": "Пробный заказ на 2 дня за 1800 руб.!",
+      "exclusive": false,
+      "name": "Пробный заказ на 2 дня за 1800 руб.!",
+      "date_end": null,
+      "promocode": "НЕ НУЖЕН",
+      "id": 235921,
+      "regions": [
+        "RU"
+      ],
+      "discount": "1 800 R",
+      "types": [
+        {
+          "id": 2,
+          "name": "Скидка на заказ"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/31/7bd130435c2e4c3f6d9688ef10dba1aa.png",
+      "frameset_link": "http://ad.admitad.com/coupon/0cp8mejh3u162aae1f4eea7e0adbb8/",
+      "goto_link": "https://ad.admitad.com/g/elz5f6c5wk162aae1f4eea7e0adbb8/?i=3",
+      "species": "action",
+      "categories": [
+        {
+          "id": 11,
+          "name": "Еда"
+        }
+      ],
+      "description": "Закажите первый готовый рацион 1300 Ккал\r\nна 2 дня за 1800 рублей.\r\n\r\n*на 2 дня можно заказать только один раз"
+    },
+    {
+      "status": "active",
+      "rating": "0.00",
+      "date_start": "2019-03-11T17:03:22",
+      "campaign": {
+        "id": 18669,
+        "name": "General Food",
+        "site_url": "https://general-food.ru/"
+      },
+      "short_name": "Пробный заказ на 2 дня за 1800 руб.!",
+      "exclusive": false,
+      "name": "Пробный заказ на 2 дня за 1800 руб.!",
+      "date_end": null,
+      "promocode": "НЕ НУЖЕН",
+      "id": 235920,
+      "regions": [
+        "RU"
+      ],
+      "discount": "1 800 R",
+      "types": [
+        {
+          "id": 2,
+          "name": "Скидка на заказ"
+        }
+      ],
+      "image": "http://cdn.admitad.com/campaign/images/2017/10/31/7bd130435c2e4c3f6d9688ef10dba1aa.png",
+      "frameset_link": "http://ad.admitad.com/coupon/m0b7cgjcj6162aae1f4eea7e0adbb8/",
+      "goto_link": "https://ad.admitad.com/g/tpp1p1vnng162aae1f4eea7e0adbb8/?i=3",
+      "species": "action",
+      "categories": [
+        {
+          "id": 11,
+          "name": "Еда"
+        }
+      ],
+      "description": "Закажите первый готовый рацион 1300 Ккал\r\nна 2 дня за 1800 рублей.\r\n\r\n*на 2 дня можно заказать только один раз"
+    }
+  ],
+  "_meta": {
+    "count": 2930,
+    "limit": 10,
+    "offset": 0
+  }
+}
