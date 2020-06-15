@@ -37,6 +37,7 @@ class JacksonConfig {
         val mapper = XmlMapper()
         mapper.registerKotlinModule()
                 .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
+                .registerModule(JavaTimeModule())
 
         return mapper
     }
